@@ -3,6 +3,8 @@
 Permet de changer de branche.
 
 L'option ``-c`` permet de créer une branche depuis là où l'on est et d'avoir le HEAD directement sur celle-ci.
+
+
 ## git branch
 Affiche la liste des branches en local.
 
@@ -16,6 +18,11 @@ git branch -m <new_name>
 ```
 git branch <name> -u origin/<name>
 ```
+* ``-r`` permet de voir toutes les branches remote
+```
+git branch -r
+```
+
 
 ## git clone
 Permet de copier une répertoire git en local à l'aide d'une url
