@@ -1,6 +1,8 @@
 # Ma configuration par défaut de git
 
 ```
+[core]
+	editor = code --wait
 [alias]
 	s = status
 	ol = log --oneline -10
