@@ -44,6 +44,6 @@ GREEN_BOLD='\e[1;32m'   # Green - Bold
 BLUE_BOLD='\e[1;34m'    # Blue - Bold
 WHITE_BOLD='\e[1;37m'   # White - Bold
 RESET='\e[0m'         # Text Reset
-export PS1="${GREEN_BOLD}\u:${BLUE_BOLD}\w ${CYAN}\$(parse_git_branch)${WHITE_BOLD}\n▸ ${RESET}"
+export PS1="${GREEN_BOLD}\u:${BLUE_BOLD}\w ${CYAN}\$(parse_git_branch)${WHITE_BOLD} $"
 ```
 Lien du [tuto](https://blog.pabuisson.com/2014/04/branche-git-courante-dans-le-prompt/)
